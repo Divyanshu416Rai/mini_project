@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Laundry Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Digital Laundry Service</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Home</a></li>
+                <!-- <li><a href="profile.html">Services</a></li> -->
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Digital Laundry Service</h2>
+            <p>Your one-stop solution for all laundry needs.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Wash & Fold</li>
+                <li>Dry Cleaning</li>
+                <li>Ironing</li>
+                <li>Pickup & Delivery</li>
+            </ul>
+        </section>
+
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Wash & Fold</td>
+                    <td>$10 per load</td>
+                </tr>
+                <tr>
+                    <td>Dry Cleaning</td>
+                    <td>$15 per item</td>
+                </tr>
+                <tr>
+                    <td>Ironing</td>
+                    <td>$5 per item</td>
+                </tr>
+                <tr>
+                    <td>Pickup & Delivery</td>
+                    <td>Free for orders over $30</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at: info@digitallaundry.com | Follow us on social media:</p>
+        <p>Facebook | Twitter | Instagram</p>
+    </footer>
+</body>
+</html>
